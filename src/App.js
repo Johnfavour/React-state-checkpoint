@@ -10,7 +10,7 @@ class App extends Component {
       person: {
         fullName: "Favour John",
         bio: "A software developer",
-        imgSrc: "/meso.png",
+        imgSrc: "/me.png",
         profession: "Developer",
       },
       show: true,
@@ -54,7 +54,7 @@ class App extends Component {
         <h1>Profile</h1>
         {show && (
           <div>
-            <img src={person.imgSrc} alt={person.fullName} style={{height: '300px', borderRadius: '40px'}}/>
+            <img src={person.imgSrc} alt={person.fullName} style={{height: '400px', borderRadius: '40px', marginTop:'-50px'}}/>
             <h2>{person.fullName}</h2>
             <p>{person.bio}</p>
             <p>{person.profession}</p>
